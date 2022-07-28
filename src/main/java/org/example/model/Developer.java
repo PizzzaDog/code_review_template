@@ -5,7 +5,6 @@ import org.example.constant.Technology;
 //@Entity
 public class Developer {
 
-//    @Id
     private Integer id;
     private String name;
     private Double salary;

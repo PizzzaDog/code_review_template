@@ -6,9 +6,10 @@ import org.example.constant.Technology;
 //@Bean
 public class Developer {
 
-    public Integer id;
+//    @Id
+    private Integer id;
     private String name;
-    public Double salary;
+    private Double salary;
     private Technology technology;
 
     public String getName() {
@@ -20,9 +21,6 @@ public class Developer {
     }
 
     public Double getSalary() {
-
-
-
         return salary;
     }
 

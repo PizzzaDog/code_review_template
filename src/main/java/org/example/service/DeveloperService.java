@@ -1,6 +1,6 @@
 package org.example.service;
 
-import org.example.model.*;
+import org.example.model.Developer;
 import org.example.repository.DeveloperRepository;
 
 import java.util.List;

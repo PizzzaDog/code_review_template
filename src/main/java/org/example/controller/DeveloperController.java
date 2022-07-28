@@ -12,7 +12,7 @@ public class DeveloperController {
     //@GetMapping("/user/{id})
     public Developer getDevelopers(Integer id) {
         DeveloperService service = new DeveloperService();
-        Developer developer = new Developer();
+        Developer developer;
         List<Developer> all = service.getAll();
         developer = all.stream()
                             .map(x -> x.getId() == id ? x : new Developer())

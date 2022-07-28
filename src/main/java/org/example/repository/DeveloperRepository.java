@@ -1,8 +1,6 @@
 package org.example.repository;
 
-
 import org.example.model.Developer;
-
 import java.util.List;
 
 //@Repository

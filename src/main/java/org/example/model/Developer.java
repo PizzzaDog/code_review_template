@@ -3,7 +3,6 @@ package org.example.model;
 import org.example.constant.Technology;
 
 //@Entity
-//@Bean
 public class Developer {
 
 //    @Id

@@ -9,7 +9,7 @@ public class DeveloperRepository {
 
     public Developer findById(Integer id) {
         //Going to DB and return Developer
-        return null;
+        return new Developer();
     }
 
     public List<Developer> findAll() {
